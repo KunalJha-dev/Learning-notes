@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform_property</title>
+    <style>
+        .div{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            border: 2px solid;
+            text-transform: capitalize;
+            text-align: center;
+            transition: all 1s ease-in-out ;
+            
+        }
+        #rotate:hover{
+            transform: rotate(45deg);
+        }
+        #scale:hover{
+            transform: scale(1.5);
+        }
+        #translate:hover{
+            transform: translate(50px);
+        }
+        #skew:hover{
+            transform: skew(90deg);
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="rotate" class="div">rotate</div>
+    <hr>
+    <div id="scale" class="div">scale</div>
+    <hr>
+    <div id="translate" class="div">translate</div>
+    <hr>
+    <div id="skew" class="div">skew</div>
+</body>
+</html>

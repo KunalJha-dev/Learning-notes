@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #box1{
+            width: 200px;
+            height: 200px;
+            background-color: cornflowerblue;
+            border: 2px solid;
+            text-align: center;
+            text-transform:uppercase;
+            font-weight: 800;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position: relative;
+            top: 200px;
+
+            animation-name: vahak;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: 10;
+            animation-direction: alternate;
+        }
+        @keyframes vahak {
+            from{
+                left: 10px;
+            }
+            to{
+                left: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">Animation</div>
+</body>
+</html>
